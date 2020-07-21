@@ -1,0 +1,205 @@
+@font-face {
+  font-family: futura;
+  src: url(futurambt.ttf);
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+.blue {
+    color:#4885ed;
+    font-size: 94px;
+    font-family: futura;
+}
+
+.red {
+    color: #db3236;
+    font-size: 94px;
+    font-family: futura;
+}
+
+.yellow {
+    color:  #f4c20d;
+    font-size: 94px;
+    font-family: futura;
+}
+
+.green {
+    color: #3cba54;
+    font-size: 94px;
+    font-family: futura;
+}
+
+.images {
+    font-size: 18px;
+}
+
+#images_logo {
+    padding-top:-50px;
+}
+
+.nav-item a {
+    font-size: 14px;
+    color: black;
+}
+
+.submit {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input-field {
+    border-radius: 40px;
+    width: 582px;
+    height: 44px;
+    border: 1px solid #D9D9D9;
+    padding-left: 2.8em;
+}
+
+.input-field:focus {
+    outline: none;
+    appearance: none;
+}
+
+.input-icons i {
+    position: absolute;
+}
+    
+.input-icons {
+    width: 100%;    
+}
+    
+.material-icons {
+    margin-top: 3px;
+    margin-left: 2px;
+    padding: 10px;
+    min-width: 40px;
+    color: rgb(170, 169, 169);
+}
+
+.blue_s {
+    color:#4885ed;
+    font-size: 31px;
+    font-family: futura;
+    
+}
+
+.red_s {
+    color: #db3236;
+    font-size: 31px;
+    font-family: futura;
+    
+}
+
+.yellow_s {
+    color:  #f4c20d;
+    font-size: 31px;
+    font-family: futura;
+    
+}
+
+.green_s {
+    color: #3cba54;
+    font-size: 31px;
+    font-family: futura;
+    
+}
+
+.navbar-custom {
+    background-color:#F1F1F1;
+    height: 60px;
+}
+
+a.nav-link.px-3 {
+    color:rgba(0,0,0,.5);
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.title {
+    margin:  0px 0px 0px 10px;
+}
+
+.searches {
+    margin: 20px auto 0 45px; 
+}
+
+.input-boxes {
+    width: 180px;
+}
+
+.advanced-input {
+    width: 100%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 30px;
+    padding: 1px 8px;
+}
+
+.table {
+    display: table;
+    border-spacing: 0px 14px;
+    margin: 0px; 
+}
+
+.row {
+    display: table-row;
+}
+
+.column.heading {
+    font-size: 16px;
+}
+
+.column {
+    display: table-cell;
+    font-size: 13px;
+}
+
+.submit-advanced {
+    background-color: #4885ed;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color:white;
+    font-size: 11px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    float: right;
+}
+
+.explanation-heading {
+    color: #777; 
+    font-weight:700;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.explanation {
+    position: relative;
+    font-size: 11px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    width: 50%;
+}
